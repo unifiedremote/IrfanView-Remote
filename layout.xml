@@ -2,7 +2,7 @@
 <layout>
   <grid>
     <row>
-      <button id="open_dir" icon="FOLDEROPEN" color="#999900" onTap="open_dir" /> 
+      <button id="open_dir" icon="FOLDER" color="#999900" onTap="open_dir" /> 
       <button id="fullscreen" icon="FULLSCREEN" color="#2233aa" onTap="fullscreen" />
       <button id="greyscale" icon="OFF" color="#646464" onTap="greyscale" />
     </row>
