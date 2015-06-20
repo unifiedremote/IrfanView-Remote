@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <grid>
+    <row>
+      <button id="open_dir" icon="FOLDEROPEN" color="#999900" onTap="open_dir" /> 
+      <button id="fullscreen" icon="FULLSCREEN" color="#2233aa" onTap="fullscreen" />
+      <button id="greyscale" icon="OFF" color="#646464" onTap="greyscale" />
+   </row>
+    <row>
+     <button id="reload" icon="REFRESH" color="#702000" onTap="reload" />
+     <button id="darken" icon="OFF" color="#703000" onTap="darken" />
+     <button id="brighten" icon="ON" color="#804000" onTap="brighten" />
+    </row>
+    <row>
+     <button id="mirror_h" icon="DOCSWITCH" color="#550055" onTap="mirror_h" />
+     <button id="rotate_left" icon="ROTATELEFT" color="#550055" onTap="rotate_left" />
+      <button id="rotate_right" icon="ROTATERIGHT" color="#550055" onTap="rotate_right" />
+    </row>
+    <row>
+     <button id="random_img" icon="SHUFFLE" color="green" onTap="random_img" />
+     <button id="zoom_out" icon="ZOOMOUT" color="purple" onTap="zoom_out" />
+     <button id="zoom_in" icon="ZOOMIN" color="purple" onTap="zoom_in" />
+    </row>
+    <row>
+     <button id="play_prev" icon="ARROWLEFT" color="#22aa00" onTap="play_prev" />
+     <button id="play_next" icon="ARROWRIGHT" color="#22aa00" onTap="play_next" />
+    </row>
+    <row>
+     <button id="cur_left" icon="LEFT" color="#2233aa" onTap="cur_left" />
+     <button id="cur_down" icon="DOWN" color="#2233aa" onTap="cur_down" />
+     <button id="cur_up" icon="UP" color="#2233aa" onTap="cur_up" />
+     <button id="cur_right" icon="RIGHT" color="#2233aa" onTap="cur_right" />
+    </row>
+  </grid>
+</layout>
