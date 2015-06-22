@@ -4,19 +4,14 @@
     <row>
       <button id="open_dir" icon="FOLDER" color="#999900" onTap="open_dir" /> 
       <button id="fullscreen" icon="FULLSCREEN" color="#2233aa" onTap="fullscreen" />
-      <button id="greyscale" icon="OFF" color="#646464" onTap="greyscale" />
+      <button id="random_img" icon="SHUFFLE" color="green"  onTap="random_img" />
     </row>
     <row>
-      <button id="reload" icon="REFRESH" color="red" onTap="reload" />
+      <button id="greyscale" icon="OFF" color="#646464" onTap="greyscale" />
       <button id="darken" icon="OFF" color="#703000" onTap="darken" />
       <button id="brighten" icon="ON" color="#804000" onTap="brighten" />
    </row>
    <row>
-      <button id="random_img" icon="SHUFFLE" color="red"  onTap="random_img" />
-      <button id="zoom_out" icon="ZOOMOUT" color="#550055" onTap="zoom_out" />
-      <button id="zoom_in" icon="ZOOMIN" color="#550055" onTap="zoom_in" />
-	  </row>
-    <row>
       <button id="mirror_h" icon="DOCSWITCH" color="purple" onTap="mirror_h" />
       <button id="rotate_left" icon="ROTATELEFT" color="purple" onTap="rotate_left" />
       <button id="rotate_right" icon="ROTATERIGHT" color="purple" onTap="rotate_right" />
@@ -24,6 +19,11 @@
    <row>
       <button id="play_prev" icon="ARROWLEFT" color="#22aa00" onTap="play_prev" />
       <button id="play_next" icon="ARROWRIGHT" color="#22aa00" onTap="play_next" />
+    </row>
+    <row>
+    	<button id="reload" icon="REFRESH" color="red" onTap="reload" />
+    	<button id="zoom_out" icon="ZOOMOUT" color="#550055" onTap="zoom_out" />
+    	<button id="zoom_in" icon="ZOOMIN" color="#550055" onTap="zoom_in" />
     </row>
     <row>
       <button id="cur_left" icon="LEFT" color="#2233aa" onTap="cur_left" />
