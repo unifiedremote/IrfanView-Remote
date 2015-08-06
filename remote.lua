@@ -87,7 +87,10 @@ end
 actions.mirror_h = function()
 	keyboard.stroke("h");
 end
-
+--@help flip vertical
+actions.mirror_v = function()
+	keyboard.stroke("v");
+end
 ------------------------------------------------
 -- Image adjust
 ------------------------------------------------
@@ -106,14 +109,24 @@ actions.darken = function()
 actions.brighten = function()
 	keyboard.stroke("shift","g");
 	keyboard.press("tab","tab","tab","tab","pgdown","pgdown","enter");
-	end
+end
+--@help less colour
+actions.desat = function()
+	keyboard.stroke("shift","g");
+	keyboard.press("tab","tab","tab","tab","tab","tab","pgup","pgup","pgup","pgup","pgup","pgup","enter");
+end
+--@help more colour
+actions.sat = function()
+	keyboard.stroke("shift","g");
+	keyboard.press("tab","tab","tab","tab","tab","tab","pgdown","pgdown","pgdown","pgdown","pgdown","pgdown","enter");
+end
 	
 --@help random_img
 actions.random_img = function()
 	keyboard.stroke("ctrl","m");
-	end
+end
 	
 --@help reload original image
 actions.reload = function()
 	keyboard.stroke("shift","r");
-	end
+end
