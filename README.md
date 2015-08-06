@@ -16,7 +16,7 @@ Features:
 - view in greyscale
 - restore original view
 - no delete file button
-- 
+ 
 Long press (onhold) functions:
 
 - flip vertical
