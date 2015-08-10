@@ -1,9 +1,7 @@
 # Irfan View'er
-Remote for Unified Remote
-for viewing photos
+Irfan remote for Unified Remote for viewing photos.
 
-Features:
-
+## Features
 - Folder browser with navigation
 - Full screen
 - Manual previous - Next image
@@ -18,10 +16,8 @@ Features:
 - No delete file button
  
 Long press (onhold) functions:
-
 - Flip vertical
 - Colour adjustment (saturation)
-
 
 ## Screenshots
 <img src="screen.png" width="200" alt="Remote in full colour" />
