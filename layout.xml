@@ -8,11 +8,11 @@
     </row>
     <row>
       <button id="greyscale" icon="OFF" color="#646464" onTap="greyscale" />
-      <button id="darken" icon="OFF" color="#703000" onTap="darken" />
-      <button id="brighten" icon="ON" color="#804000" onTap="brighten" />
+      <button id="darken" icon="OFF" color="#703000" onTap="darken" onhold="desat"/ />
+      <button id="brighten" icon="ON" color="#804000" onTap="brighten" onhold="sat" />
    </row>
    <row>
-      <button id="mirror_h" icon="DOCSWITCH" color="purple" onTap="mirror_h" />
+      <button id="mirror_h" icon="DOCSWITCH" color="purple" onTap="mirror_h" onhold="mirror_v" />
       <button id="rotate_left" icon="ROTATELEFT" color="purple" onTap="rotate_left" />
       <button id="rotate_right" icon="ROTATERIGHT" color="purple" onTap="rotate_right" />
    </row>
